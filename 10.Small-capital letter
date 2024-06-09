@@ -1,0 +1,21 @@
+import java.util.*;
+class java11 
+{
+	public static void main(String[] args) 
+	{
+		Scanner input=new Scanner(System.in);
+		char a=input.next().charAt(0);
+		if(a>=97 && a<=122)
+		{
+			int b=a-32;
+			char c=(char) b;
+			System.out.println(c);
+		}
+		else
+		{
+			int b=a+32;
+			char c=(char) b;
+			System.out.println(c);
+		}
+	}
+}
