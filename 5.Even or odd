@@ -1,20 +1,18 @@
 import java.util.*;
-class java4b 
+class java5 
 {
 	public static void main(String[] args) 
 	{
 		Scanner input=new Scanner(System.in);
-		System.out.println("Enter 1st: ");
+		System.out.println("Enter");
 		int n=input.nextInt();
-		System.out.println("Enter 2nd: ");
-		int n1=input.nextInt();
-		if(n1%10==n || n%10==n1)
+		if(n%2==0)
 		{
-			System.out.println("true");
+			System.out.println("Even");
 		}
-		else
+			else
 		{
-			System.out.println("False");
+				System.out.println("Odd");
 		}
 	}
 }
