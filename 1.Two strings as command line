@@ -1,0 +1,13 @@
+import java.util.*;	
+class java1
+{
+	public static void main(String[] args)
+	{
+		Scanner input=new Scanner(System.in);
+		System.out.println("Enter 1st string: ");
+		String n=input.next();
+		System.out.println("Enter 2nd staring: ");
+		String n1=input.next();
+		System.out.println(n+" technologies "+n1);
+	}
+}
