@@ -1,0 +1,25 @@
+import java.util.*;
+class java23 
+{
+	public static void main(String[] args) 
+	{
+		Scanner input=new Scanner(System.in);
+		System.out.println("Enter the size of array: ");
+		int n=input.nextInt();
+		int a[]=new int[n];
+		int s=0;
+		System.out.println("Enter the values: ");
+		for(int i=0;i<n;i++)
+		{
+			a[i]=input.nextInt();
+		}
+		for(int i=0;i<n;i++)
+		{
+			s=s+a[i];
+		}
+		int avg;
+		avg=s/n;
+		System.out.println("The sum is: "+s);
+		System.out.println("The average is: "+avg);
+	}
+}
