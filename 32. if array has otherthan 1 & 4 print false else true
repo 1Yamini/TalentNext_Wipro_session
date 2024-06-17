@@ -1,0 +1,27 @@
+import java.util.*;
+class java33 
+{
+	public static void main(String[] args) 
+	{
+		Scanner input=new Scanner(System.in);
+		System.out.println("Enter no of values: ");
+		int n=input.nextInt();
+		int[] a=new int[n];
+		int i;
+		System.out.println("Enter the values: ");
+		for(i=0;i<n;i++)
+		{
+			a[i]=input.nextInt();
+		}
+		boolean m=true;
+		for(i=0;i<n;i++)
+		{
+			if(a[i]!=1 && a[i]!=4)
+			{
+				m=false;
+				break;
+			}
+		}
+		System.out.println(m);
+	}
+}
