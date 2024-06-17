@@ -1,0 +1,28 @@
+import java.util.*;
+class java35 
+{
+	public static void main(String[] args) 
+	{
+		Scanner input=new Scanner(System.in);
+		int a[]=new int[3];
+		int b[]=new int[3];
+		int c[]=new int[2];
+		int i;
+		System.out.println("Enter values of 1st array: ");
+		for(i=0;i<3;i++)
+		{
+			a[i]=input.nextInt();
+		}
+		System.out.println("Enter values of 2nd array: ");
+		for(i=0;i<3;i++)
+		{
+			b[i]=input.nextInt();
+		}
+		c[0]=a[1];
+		c[1]=b[1];
+		for(i=0;i<2;i++)
+		{
+			System.out.print(c[i]+" ");
+		}
+	}
+}
